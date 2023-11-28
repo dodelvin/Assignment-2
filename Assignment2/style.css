@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: url('./images/pexels-scott-webb-305821.jpg');
+    background-size: cover;
+}
+
+hr {
+    width: 60%;
+    margin: 15px auto;
+    border-color: wrgb(244, 188, 188)
+}
+
+#search-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+}
+
+#filter-container {
+
+    margin-right: 30px;
+    text-align: center;
+
+}

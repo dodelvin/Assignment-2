@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Second Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div id="search-section">
+        <input type="text" placeholder="Search our products.." id="search-input">
+        <button onclick="search()">Search</button>
+    </div>
+    <hr>
+    <hr>
+    <div id="filter-container">
+
+        <label for="filter">Filter:</label>
+
+        <select id="filter" onchange="applyFilter()">
+            <option value="first product">Phones</option>
+            <option value="second product">Furnitire </option>
+            <option value="third product">Cosmetics</option>
+        </select>
+    </div>
+    <div class="products">
+        <a href="#" class="product-link">
+            <div class="single-product">
+                
+            </div>
+        </a>
+    </div>
+</body>
+</html>
