@@ -2,40 +2,95 @@ body {
     margin: 0;
     background-image: url('./images/pexels-scott-webb-305821.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 hr {
     width: 60%;
     margin: 15px auto;
-    border-color: wrgb(244, 188, 188)
-}
+    border-color: rgb(8, 176, 243);
+    margin-top: 16px;
 
-#search-section {
-    margin-top: 40px;
-    text-align: center;
-}
-
-button {
-    cursor: pointer;
-    padding: 10px;
 }
 
 input[type="text"] {
-    width: 200px;
-    padding: 10px;
+    width: 238px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2px;
+}
+
+#search-section {
+    margin-top: 32px;
+    text-align: center;
 }
 
 #filter-container {
-
-    margin-right: 30px;
+    margin-right: 36px;
     text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}    
+
+.product {
+    width: 34%;
+    margin: 12px;
+    padding: 24px;
+    background-color: rgba(174, 174, 187, 0.384);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s;
+}
+
+.product:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.product img {
+    width: 100%;
+    height: 240px;
+    object-fit: initial;
+    border-radius: 6px;
+    opacity: 2.0;
+}
+
+.product h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: initial;
+    text-align: center;
+}
+
+.product p {
+    margin: 4px 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: unset;
+    margin-bottom: 2px;
+    text-decoration: underline;
+}
+
+#product-detail {
+    display: flex;
+    border-radius: 2px;
 
 }
 
-img{
-
-
-    width: 130px;
-    text-align: left;
-   
+#product-info {
+    max-width: 740px;
+    margin: 0 auto;
+    line-height: 1.2;
 }
+
+
+
+
